@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>박스 꾸미기</title>
+    <style>
+      .box1,
+      .box2,
+      .box3,
+      .box4 {
+        float: left;
+        margin: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .box1 {
+        background-color: #343f50;
+        width: 150px;
+        height: 50px;
+        border-top: 3px solid #4a5568;
+        border-left: 3px solid #4a5568;
+        outline: 3px solid #000;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      .box2 {
+        background-color: #343f50;
+        width: 130px;
+        height: 70px;
+        border-top: 10px solid #4a5568;
+        border-left: 10px solid #4a5568;
+        outline: 10px solid #000;
+      }
+
+      .box3 {
+        background: linear-gradient(to right, #8a4bf5, #386af1) 0%;
+        width: 140px;
+        height: 70px;
+        border: 5px dashed #e6dafa;
+        border-radius: 50px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        background-clip: padding-box;
+      }
+
+      .box4 {
+        background-color: white;
+        width: 150px;
+        height: 70px;
+        border: 3px solid #e7e5e9;
+        color: rgb(92, 89, 89);
+        font-weight: bold;
+        font-size: 23px;
+        border-radius: 0 100px 100px 100px;
+        box-shadow: 5px 10px 10px #e4e0e0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="box1">Hello🖐</div>
+    <div class="box2"></div>
+    <div class="box3">Hello🖐</div>
+    <div class="box4">Hello🖐</div>
+  </body>
+</html>
