@@ -6,7 +6,6 @@
 
 .mainbox {
   border: 1px solid rgb(53, 53, 49);
-  text-align: right;
   padding: 2rem;
   margin: 2rem;
   margin-right: auto;
@@ -15,8 +14,24 @@
   box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
 }
 
+.title-box {
+  text-align: right;
+}
+
 h1 {
   font-size: 36px;
   font-weight: bold;
   font-style: italic;
+}
+
+.name-text {
+  font-size: 16px;
+  color: #7c7c7c;
+  font-weight: bold;
+}
+
+.about-me-text {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: bold;
 }
