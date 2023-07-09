@@ -28,10 +28,26 @@ h1 {
   font-size: 16px;
   color: #7c7c7c;
   font-weight: bold;
+  border-bottom: 1px solid rgb(53, 53, 49);
+  padding-bottom: 20px;
+}
+
+.main-about-me {
+  border-bottom: 1px solid rgb(53, 53, 49);
+  padding-bottom: 20px;
 }
 
 .about-me-text {
   font-size: 13px;
   line-height: 16px;
   font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background-color: #1e1e1e;
+  color: #919191;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 20px;
 }
