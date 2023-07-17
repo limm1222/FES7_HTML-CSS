@@ -39,41 +39,82 @@
         flex-basis: 0;
       }
 
+      [class^="item"] {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
       /* 첫번째 flex */
       .container {
         display: flex;
         flex-direction: column;
-        /* gap: 10px; */
+        gap: 10px;
       }
 
       .con1 {
-        flex-grow: 3;
+        flex-grow: 310;
       }
 
       .con2 {
-        flex-grow: 2;
+        flex-grow: 200;
       }
 
       /* 2번째 */
       .con2 {
         display: flex;
-        /* gap: 10px */
+        gap: 10px;
       }
 
       .con2 .item-e {
-        flex-grow: 2;
+        flex-grow: 200;
       }
 
       .con2 .item-f {
-        flex-grow: 3;
+        flex-grow: 310;
       }
 
       /* con1 분할 */
       .con1 {
+        display: flex;
+        gap: 10px;
       }
+
       .con1 .con1-1 {
+        flex-grow: 310;
       }
+
       .con1 .item-d {
+        flex-grow: 200;
+      }
+
+      /* con1-1 */
+      .con1-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .con1-1 .item-a {
+        flex-grow: 2;
+      }
+
+      .con1-1 .con1-1-1 {
+        flex-grow: 1;
+      }
+
+      /* .con1-1-1 */
+      .con1-1-1 {
+        display: flex;
+        gap: 10px;
+      }
+
+      .con1-1-1 .item-b {
+        flex-grow: 2;
+      }
+
+      .con1-1-1 .item-c {
+        flex-grow: 1;
       }
     </style>
   </head>
@@ -83,8 +124,10 @@
       <div class="con1">
         <div class="con1-1">
           <div class="item-a">A</div>
-          <div class="item-b">B</div>
-          <div class="item-c">C</div>
+          <div class="con1-1-1">
+            <div class="item-b">B</div>
+            <div class="item-c">C</div>
+          </div>
         </div>
         <div class="item-d">D</div>
       </div>
