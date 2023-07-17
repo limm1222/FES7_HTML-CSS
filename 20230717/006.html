@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <style>
+      .container,
+      .item-a,
+      .item-b,
+      .item-c,
+      .item-d {
+        border: 3px solid black;
+      }
+
+      .container {
+        display: grid;
+        width: 100%;
+
+        grid-template-columns: 3fr 1fr;
+      }
+
+      .item-a {
+        background-color: aqua;
+      }
+
+      .item-b {
+        background-color: beige;
+      }
+
+      .item-c {
+        background-color: salmon;
+      }
+
+      .item-d {
+        background-color: royalblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item-a">A</div>
+      <div class="item-b">B</div>
+      <div class="item-c">C</div>
+      <div class="item-d">D</div>
+    </div>
+  </body>
+</html>
