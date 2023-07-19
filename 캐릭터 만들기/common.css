@@ -20,41 +20,122 @@ body {
   width: 385px;
   height: 359px;
 
-  top: 50%;
+  top: 20%;
 
   border: 2px solid #4f402f;
   border-radius: 385px;
   background: #806640;
   box-shadow: 3px 10px 4px 0px rgba(0, 0, 0, 0.25);
-}
 
-.bang {
-  position: absolute;
-
-  top: 63px;
-  left: 29px;
-
-  aspect-ratio: 320.94/246.826;
-
-  transform: rotate(2deg);
-
-  z-index: 30;
+  z-index: 20;
 }
 
 .face {
   position: absolute;
 
-  top: 70px;
-  left: 37px;
+  top: 36%;
+  left: 9%;
 
-  aspect-ratio: 300.493/324.417;
+  transform: rotate(-2deg);
 
-  z-index: 20;
+  z-index: 30;
+}
+
+.bang {
+  position: absolute;
+
+  top: 35%;
+  left: 6.7%;
+
+  z-index: 40;
 }
 
 .left-hair {
   position: absolute;
 
-  top: 150px;
-  z-index: 1;
+  top: 65%;
+  left: -25%;
+
+  z-index: 10;
+}
+
+.right-hair {
+  position: absolute;
+
+  top: 65%;
+  right: -7%;
+
+  z-index: 10;
+}
+
+.left-ear {
+  position: absolute;
+
+  width: 120px;
+  height: 80px;
+
+  top: 38%;
+  left: -16%;
+
+  border: 2px solid #4f402f;
+  transform: rotate(-39deg) skewX(37deg) scaleX(1);
+  border-radius: 50% 130% 200% 130%;
+  background-color: #806640;
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
+
+  z-index: 50;
+}
+
+.right-ear {
+  position: absolute;
+
+  width: 120px;
+  height: 80px;
+
+  top: 37%;
+  right: 5.5%;
+
+  border: 2px solid #4f402f;
+  transform: rotate(-182deg) skewX(37deg) scaleX(-1);
+  border-radius: 130% 50% 130% 200%;
+  background-color: #806640;
+  box-shadow: 2px 2px 10px 1px rgba(0, 0, 0, 0.2);
+
+  z-index: 50;
+}
+
+.left-inner-ear {
+  position: absolute;
+
+  width: 98px;
+  height: 35px;
+  transform: rotate(-23deg);
+
+  top: 45.5%;
+  left: -12%;
+
+  background-color: #f3cece;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  box-shadow: 10px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+  z-index: 60;
+}
+
+.right-inner-ear {
+  position: absolute;
+
+  width: 98px;
+  height: 35px;
+
+  top: 44.7%;
+  left: 71.5%;
+  transform: rotate(16deg);
+
+  background-color: #f3cece;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  box-shadow: 10px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
+
+  z-index: 60;
 }
