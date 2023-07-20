@@ -1,3 +1,11 @@
+/* animation */
+@keyframes eyes-moving {
+  to {
+    background-position: right 0;
+  }
+}
+
+/* CSS -------------------------- */
 body {
   background-color: #4a7543;
 }
@@ -30,7 +38,7 @@ body {
   z-index: 20;
 }
 
-.face {
+.face-shape {
   position: absolute;
 
   top: 36%;
@@ -138,4 +146,114 @@ body {
   box-shadow: 10px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 
   z-index: 60;
+}
+
+.left-eye {
+  position: absolute;
+
+  width: 65px;
+  height: 63px;
+
+  top: 71%;
+  left: 21%;
+
+  background: url(./images/왼쪽\ 눈.png) no-repeat 0 0 / auto 100%;
+
+  z-index: 70;
+
+  animation: eyes-moving 1.7s infinite steps(6);
+}
+
+.right-eye {
+  position: absolute;
+
+  width: 65px;
+  height: 63px;
+
+  top: 71%;
+  left: 46%;
+
+  background: url(./images/오른쪽\ 눈.png) no-repeat 0 0 / auto 100%;
+
+  z-index: 70;
+
+  animation: eyes-moving 1.7s infinite steps(6);
+}
+
+.nose {
+  position: absolute;
+
+  width: 15px;
+  height: 10px;
+
+  top: 85%;
+  left: 38.5%;
+
+  background-color: #e2a376;
+  border: 1px solid #d1ba7f;
+  border-radius: 100%;
+  box-shadow: 0px 2px 4px rgba(108, 99, 76, 0.25);
+
+  z-index: 70;
+}
+
+.left-blur {
+  position: absolute;
+
+  width: 40px;
+  height: 11px;
+
+  top: 88%;
+  left: 20%;
+
+  background-color: rgba(243, 199, 166, 0.76);
+  border-radius: 100%;
+  filter: blur(2px);
+
+  z-index: 70;
+}
+
+.right-blur {
+  position: absolute;
+
+  width: 40px;
+  height: 11px;
+
+  top: 88%;
+  right: 39%;
+
+  background-color: rgba(243, 199, 166, 0.76);
+  border-radius: 100%;
+  filter: blur(2px);
+
+  z-index: 70;
+}
+
+.lips {
+  position: absolute;
+
+  width: 34.5px;
+  height: 6.104px;
+
+  top: 91%;
+  left: 37%;
+
+  background-color: #faeed1;
+  border-bottom: 4px solid #695b53;
+  border-radius: 100%;
+
+  z-index: 70;
+}
+
+.leaf {
+  position: absolute;
+
+  width: 160px;
+  height: 70px;
+
+  top: 100%;
+  left: -70%;
+
+  background-color: #234927;
+  border: 2px solid #223723;
 }
