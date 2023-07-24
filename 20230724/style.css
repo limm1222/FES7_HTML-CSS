@@ -1,0 +1,79 @@
+html,
+body {
+  height: 100%;
+}
+ul {
+  list-style: none;
+}
+body,
+div,
+ul,
+li,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d9d9d9;
+}
+
+.container {
+  width: 448px;
+  height: 494px;
+  background-color: #d9d9d9;
+}
+
+/* 타이틀 박스 /
+
+.title-box{
+  display: flex;
+  height: 120px;
+  background-color: #ffffff;
+  border-bottom: solid 4px #dddddd;
+  border-radius: 20px 20px 0 0 ;
+  align-items : center;
+}
+
+.title{
+
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff007a;
+}
+.title-symbol{
+  width: 8px;
+  height: 32px;
+  top: 157px;
+  left: 415px;
+  border-radius: 0px 10px 10px 0px;
+  background-color: #ff007a;
+  margin-right: 32px;
+
+}
+/ 메인 박스 */
+.main-content {
+  background-color: #eeeeee;
+  height: 374px;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0 38px 0;
+}
+.main-content li {
+  width: 372px;
+  height: 48px;
+  border: solid 4px #dddddd;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.main-content .b {
+  color: #759cff;
+  border: solid 4px #759cff;
+}
