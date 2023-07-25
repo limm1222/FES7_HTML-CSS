@@ -12,6 +12,10 @@ ul {
   list-style: none;
 }
 
+input {
+  font: inherit;
+}
+
 button:enabled {
   cursor: pointer;
 }
@@ -129,6 +133,29 @@ button img {
   font-weight: normal;
   padding: 5px 15px;
   border-radius: 50px;
+}
+
+.blue-box {
+  display: flex;
+  justify-content: space-between;
+  height: 32px;
+  background-color: #eae8fe;
+  border-radius: 5px;
+  padding: 6px 10px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+#input-money {
+  display: flex;
+  width: 100%;
+  height: 32px;
+  border: 1px solid #bdbdbd;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 6px;
 }
 
 /* 버튼 */
