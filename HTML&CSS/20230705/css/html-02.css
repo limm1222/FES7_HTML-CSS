@@ -1,0 +1,29 @@
+#title {
+  text-decoration: underline;
+}
+
+.my {
+  background-color: rgba(187, 145, 96, 0.315);
+}
+
+.my + p {
+  color: rgb(158, 30, 47);
+}
+
+body {
+  background-color: beige;
+}
+
+strong {
+  background-color: rgb(223, 186, 118);
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(73, 51, 26, 0.315);
+  padding: 20px;
+}
+
+h2 {
+  background-color: rgba(187, 145, 96, 0.315);
+}

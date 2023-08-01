@@ -1,0 +1,27 @@
+body {
+  color: beige;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+}
+
+h1 {
+  color: brown;
+  font-family: "Black Han Sans", sans-serif;
+}
+
+strong {
+  border-bottom: 5px solid currentColor;
+}
+
+h2 {
+  color: #999;
+  font-family: "Pretendard-Regular", Verdana, sans-serif;
+}
+
+.font-jua {
+  font-family: "jua-font";
+  src: url(./font/Jua-Regular.ttf);
+}

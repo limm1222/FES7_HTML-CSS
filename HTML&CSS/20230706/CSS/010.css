@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@100&family=Jua&display=swap");
+
+* {
+  font-family: "IBM Plex Sans KR", sans-serif;
+}
+
+.mainbox {
+  border: 1px solid rgb(53, 53, 49);
+  padding: 2rem;
+  margin: 2rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: 640px;
+  box-shadow: 0 1px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.title-box {
+  text-align: right;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.name-text {
+  font-size: 16px;
+  color: #7c7c7c;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(53, 53, 49);
+  padding-bottom: 20px;
+}
+
+.main-about-me {
+  border-bottom: 1px solid rgb(53, 53, 49);
+  padding-bottom: 20px;
+}
+
+.about-me-text {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  background-color: #1e1e1e;
+  color: #919191;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 20px;
+}
