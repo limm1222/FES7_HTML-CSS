@@ -1,0 +1,135 @@
+/* font --------------------------------------- */
+@font-face {
+  font-family: "SpoqaHanSansNeo-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* reset --------------------------------------- */
+h1,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  font: inherit;
+  list-style: none;
+}
+
+a {
+  font: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+.a11y-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  width: 0px;
+  height: 0px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+/* CSS --------------------------------------- */
+body {
+  background-color: #e5e5e5;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: "SpoqaHanSansNeo-Regular";
+  width: 520px;
+  background-color: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 10px;
+}
+
+.login-top {
+  border-bottom: 1px solid #c4c4c4;
+
+  display: flex;
+}
+
+.close {
+  width: 16px;
+  height: 16px;
+  padding: 22px 0px 20px 0px;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 148px 18px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.login-list {
+  color: #767676;
+  font-weight: 500;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+li {
+  display: flex;
+  font-size: 16px;
+  border: 1px solid #767676;
+  padding: 15px;
+  border-radius: 5px;
+  justify-content: center;
+}
+
+li:nth-child(1) {
+  border: 1px solid #767676;
+
+  background-image: url(./images/Google__G__Logo\ 1.png);
+  background-repeat: no-repeat;
+  vertical-align: top;
+  background-position: 3%;
+}
+
+li:nth-child(2) {
+  border: 1px solid #2d9cdb;
+
+  background-image: url(./images/facebook.png);
+  background-repeat: no-repeat;
+  vertical-align: top;
+  background-position: 3%;
+}
+
+li:nth-child(3) {
+  border: 1px solid #00bf18;
+
+  background-image: url(./images/naver-logo.png);
+  background-repeat: no-repeat;
+  vertical-align: top;
+  background-position: 3%;
+}
+
+li:nth-child(4) {
+  border: 1px solid #f2c94c;
+
+  background-image: url(./images/message-circle.png);
+  background-repeat: no-repeat;
+  vertical-align: top;
+  background-position: 3%;
+}
